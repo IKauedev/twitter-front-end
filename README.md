@@ -1,4 +1,4 @@
-# X Clone - Twitter Construído com Next.js -Em Desenvolvimento
+Twitter Construído com Next.js -Em Desenvolvimento
 
 <div style="text-align: center;">
   <img src="https://imgs.search.brave.com/ppRXxzu6TObkBdVFaEGiWjh8rVSN8UIUIgOZoEPJmCI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzZmL0xvZ29fb2Zf/VHdpdHRlci5zdmc" alt="X Clone Logo" width="120px" height="100px" />
