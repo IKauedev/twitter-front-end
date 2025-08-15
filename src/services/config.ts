@@ -17,7 +17,7 @@
 
 /* + */ export const RETWEET_POST = '/api/v1/retweet';
 /* + */ export const RETWEET_DELETE = '/api/v1/retweet';
-export const RETWEET_LIST_GET = '/api/v1/retweets'; /* RETWEET_LIST_GET еще не внедрено, TODO изменения от бэкенда */
+        export const RETWEET_LIST_GET = '/api/v1/retweets'; /* RETWEET_LIST_GET еще не внедрено, TODO изменения от бэкенда */
 /* + */ export const RETWEET_GET = '/api/v1/retweet';
 
 /* + */ export const REPLIES_GET = '/api/v1/reply'; /* req: /{parentTweetId}; res: code: 200, [{repliesData}] */

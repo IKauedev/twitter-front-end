@@ -18,6 +18,7 @@ import axios, { AxiosError } from 'axios'
 import Link from 'next/link'
 
 interface ISignUpTemplate {
+  authRegisterForm: UseFormReturn<IAuthSignUpRequest>
   onSubmitForm: (e: React.FormEvent) => void
   isLoading: boolean
   openPopup: boolean
@@ -28,6 +29,7 @@ interface ISignUpTemplate {
 }
 
 export default function SignUpTemplate({
+  authRegisterForm,
   onSubmitForm,
   isLoading,
   openPopup,
@@ -89,25 +91,25 @@ export default function SignUpTemplate({
             Junte-se ao Twitter hoje{' '}
           </Typography>
           <TextField
-            id="name"
             label="Nome"
             type="text"
             variant="outlined"
             fullWidth
+            {...authRegisterForm.register('username', { required: true })}
           />
           <TextField
-            id="email"
             label="Email"
             type="email"
             variant="outlined"
             fullWidth
+            {...authRegisterForm.register('email', { required: true })}
           />
           <TextField
-            id="password"
             label="Senha"
             type="password"
             variant="outlined"
             fullWidth
+            {...authRegisterForm.register('password', { required: true })}
           />
           <Button
             type="submit"
